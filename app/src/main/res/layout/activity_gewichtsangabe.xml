@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gewichtsangabe">
+
+    <TextView
+        android:id="@+id/AGewicht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktuelles Gewicht:"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/gewichta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="350dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/Stand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Letzter Stand:"
+        android:textSize="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+
+        ></TextView>
+    <TextView
+        android:id="@+id/LS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="350dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tatsächliches Gewicht:"
+        android:textSize="25dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+
+        ></TextView>
+
+    <EditText
+        android:id="@+id/TG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="350dp"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktueller Fettanteil:"
+        android:textSize="25dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/FA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="300dp">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Letzter Stand:"
+        android:textSize="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/LA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="350dp"
+        ></TextView>
+
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Tatsächlicher Körperfettanteil:"
+        android:textSize="25dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+
+        ></TextView>
+
+    <EditText
+        android:id="@+id/TK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="350dp"
+        ></EditText>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Zurueck"
+        android:text="Zurück"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="50dp"
+        ></Button>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hinzufuegen"
+        android:text="hinzufügen"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="200dp"
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scanner">
+
+
+    <TextView
+        android:id="@+id/Scanname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:text="kcal pro 100g:"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/Grammwerte"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"></TextView>
+
+    <ImageView
+        android:id="@+id/bild"
+        android:layout_width="500dp"
+        android:layout_height="225dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:text="Bar-Code"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Barcode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="30dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/hinzufuegen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hinzufügen"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="200dp">
+    </Button>
+
+    <ListView
+        android:id="@+id/Produkte"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+
+        ></ListView>
+    <Button
+        android:id="@+id/Hauptmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zum Hauptmenu"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="30dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/Scannen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="250dp"
+        android:text="Scannen"
+        ></Button>
+
+
+
+</RelativeLayout>

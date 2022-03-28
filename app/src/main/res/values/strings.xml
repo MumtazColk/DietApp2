@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DietApp6</string>
+
+    <string-array name="geschlecht">
+        <item>Mann</item>
+        <item>Frau</item>
+    </string-array>
+    <string-array name="einheit">
+        <item>g</item>
+        <item>ml</item>
+    </string-array>
+</resources>

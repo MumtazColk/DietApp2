@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Images"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/ProduktN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/barcode"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ProduktN"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/kcal"
+        android:layout_width="100dp"
+        android:layout_marginLeft="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ProduktN"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000" />
+
+</RelativeLayout>

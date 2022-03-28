@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rezept_hinzufugen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rezeptname"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/Rezeptname"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/Rezeptname"
+        android:layout_toRightOf="@+id/Rezeptname"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kcal/100g"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/Kcalg"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Kcalgramm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/Kcalg"
+        android:layout_toRightOf="@+id/Kcalg"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beschreibung"
+        android:textSize="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/Beschreibung"
+        ></TextView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:id="@+id/Beschreibung1">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Zurueck"
+        android:text="Zurück"
+        android:layout_below="@+id/Beschreibung1"
+        android:layout_marginLeft="50dp"
+        ></Button>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hinzufuegen"
+        android:text="hinzufügen"
+        android:layout_below="@+id/Beschreibung1"
+        android:layout_marginLeft="200dp"
+        ></Button>
+
+
+
+
+</RelativeLayout>

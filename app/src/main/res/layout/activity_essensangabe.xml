@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Essensangabe">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heute gegessen"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <ListView
+        android:id="@+id/Angabe"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        ></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:text="Aufgenommene kcal:"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/Kalorien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="120dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:text="Rezepte und letzte Scans">
+    </TextView>
+    <ListView
+        android:id="@+id/RS"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="30dp"
+        ></ListView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:text="kcal pro 100g:"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/Gramm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="150dp"
+        android:text="Menge"
+
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Menge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="220dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Zurueck"
+        android:text="Zurück"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="50dp"
+        ></Button>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hinzufuegen"
+        android:text="hinzufügen"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="200dp"
+        ></Button>
+
+
+</RelativeLayout>
